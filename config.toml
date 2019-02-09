@@ -1,0 +1,111 @@
+baseurl = "https://philmassie.github.io/"
+languageCode = "en-us"
+title = "Kabelsalat"
+theme = "hugo-theme-cleanwhite"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+# Enable comments by entering your Disqus shortname
+#disqusShortname = ""
+googleAnalytics = "UA-24074009-12"
+preserveTaxonomyNames = true
+paginate = 5 #frontpage pagination
+hasCJKLanguage = false
+
+[outputs]
+home = ["HTML", "RSS", "Algolia"]
+
+[params]
+  header_image = "img/201402_tankwa_099_IMG_6752.jpg"
+  SEOTitle = "Kabelsalat | Phil Massie's blog"
+  description = "A small blog site, mainly data science, rarely updated."
+  keyword = "data science, predictive analytics, machine learning, visualisation, photography, spark, python, R, scala"
+  slogan = "http://philmassie.github.com"
+
+  # This doesnt seem to work
+  image_404 = "img/404-bg.jpg"
+  title_404 = "Cant find that page :("
+
+  # leancloud storage for page view counter
+  page_view_conter = false 
+  leancloud_app_id = ""
+  leancloud_app_key = ""
+
+  # algolia site search
+  algolia_search = false
+  algolia_appId = ""
+  algolia_indexName = ""
+  algolia_apiKey = ""
+
+  # Sidebar settings
+  sidebar_about_description = "Data scientist, wishful photographer."
+  #sidebar_avatar = "img/mug.png"      # use absolute URL, seeing it's used in both `/` and `/about/`
+  sidebar_avatar = "img/img_1191.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+  featured_tags = true 
+  featured_condition_size = 1 
+
+  # Baidu Analytics
+  ba_track_id = ""
+  
+  # We need a proxy to access Disqus api in China
+  # Follow https://github.com/zhaohuabing/disqus-php-api to set up your own disqus proxy
+  disqus_proxy = ""
+  disqus_site = ""
+
+  #Enable wechat pay & alipay to allow readers send reward money if they like the articles 
+  reward = false 
+  # reward_guide = "如果这篇文章对你有用,请随意打赏" 
+
+  friends = true
+  bookmarks = false
+  about_me = true
+
+  [params.social]
+  rss            = true 
+  email          = "philmassie@webafrica.org.za"
+  #facebook      = "full profile url in facebook"
+  #googleplus    = "full profile url in googleplus"
+  #twitter       = "full profile url in twitter"
+  linkedin       = "https://www.linkedin.com/in/philmassie"
+  #stackoverflow  = "https://stackoverflow.com/users/yourstackoverflowid"
+  instagram     = "https://www.instagram.com/philmassie"
+  github         = "https://github.com/philmassie"
+#  wechat         = "your wechat qr code image"
+  medium         = "https://medium.com/@pmassie"
+  #pinterest     = "full profile url in pinterest"
+  
+  [[params.friend_link]]
+  title = "Kirshnee Bhagwandas"
+  href =  "https://medium.com/@kirshnee.m"
+
+  [[params.bookmark_link]]
+  title =  "Martin Fowler"
+  href =  "https://martinfowler.com"
+  [[params.bookmark_link]]
+  title = "ServiceMesher"
+  href =  "http://www.servicemesher.com"
+  [[params.bookmark_link]]
+  title =  "Pxhere"
+  href = "https://pxhere.com"
+  [[params.bookmark_link]]
+  title = "unsplash"
+  href = "https://unsplash.com"
+  
+#  [[params.addtional_menus]]
+#  title =  "BOOKS"
+#  href =  "/top/books/"
+  [[params.addtional_menus]]
+  title =  "ABOUT"
+  href =  "/top/about/"
+
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+
+[params.algolia]
+vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
+params = ["categories", "tags"] 
+
