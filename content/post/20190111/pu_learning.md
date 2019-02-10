@@ -2,9 +2,10 @@
 layout: post
 title: "PU Learning"
 subtitle: "Positive/unknown class machine learning approaches"
-desciption: "A challenge that keeps presenting itself at work is one of not having a labelled negative class in the context of needing to train a binary classifier. Typically, the issue is paired with horribly imbalanced data sets and pressed for time, I have often taken the simplistic route of sub-sampling the unknown set and treating them as unknowns. Obviously this isn’t ideal as the unknown set is contaminated and as a result the classifiers dont train that well."
-image: "post/20190111/pu_learning/20180728_111831_rocherpan_full.jpg"
-author: "Philip Massie"
+description: "A challenge that keeps presenting itself at work is one of not having a labelled negative class in the context of needing to train a binary classifier. Typically, the issue is paired with horribly imbalanced data sets and pressed for time, I have often taken the simplistic route of sub-sampling the unknown set and treating them as unknowns. Obviously this isn’t ideal as the unknown set is contaminated and as a result the classifiers dont train that well."
+image: /post/20190111/pu_learning/20180728_111831_rocherpan_full.jpg
+thumbnail: /post/20190111/pu_learning/20180728_111831_rocherpan_full.jpg
+Author: "Philip Massie"
 date: 2019-01-11
 draft: false
 tags: [ "PU learning", "machine learning", "data science", "class imbalance"]

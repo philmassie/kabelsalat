@@ -2,8 +2,9 @@
 layout: post
 Title: "Greyscale Contour Plots"
 subtitle: "Plotting greyscale contoured data in R with ggplot2"
-desciption: "As most people know, publishing in colour is way more expensive than in grey scale. The costs were completely prohibitive for myself and my co-authors, so I made efforts to change my beautiful, spectacularly coloured plots, which looked so nice in slide shows, into grey scale."
-image: "post/20160622/ggplot2_contours/plot.eke.contour.grey_head.jpg"
+description: "As most people know, publishing in colour is way more expensive than in grey scale. The costs were completely prohibitive for myself and my co-authors, so I made efforts to change my beautiful, spectacularly coloured plots, which looked so nice in slide shows, into grey scale."
+image: post/20160622/ggplot2_contours/plot.eke.contour.grey_head.jpg
+thumbnail: post/20160622/ggplot2_contours/plot.eke.contour.grey_head.jpg
 author: "Philip Massie"
 date: 2016-06-22
 draft: false

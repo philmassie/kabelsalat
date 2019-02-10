@@ -2,8 +2,9 @@
 layout: post
 title: "R Netcdf cheatsheet"
 subtitle: ""
-desciption: "NetCDF files are often used to distribute gridded, multidimensional spatial data such as sea surface temperature, chlorophyll-a levels and so on. NetCDF is more than just a file format, and so googling it can be a little intimidating. I hope this helps make these files a little easier to use in R."
-image: "post/20160804/r_netcdf_cheatsheet/IMG_2387_full.jpg"
+description: "NetCDF files are often used to distribute gridded, multidimensional spatial data such as sea surface temperature, chlorophyll-a levels and so on. NetCDF is more than just a file format, and so googling it can be a little intimidating. I hope this helps make these files a little easier to use in R."
+image: /post/20160804/r_netcdf_cheatsheet/IMG_2387_full.jpg
+thumbnail: /post/20160804/r_netcdf_cheatsheet/IMG_2387_full.jpg
 author: "Philip Massie"
 date: 2016-08-04
 draft: false

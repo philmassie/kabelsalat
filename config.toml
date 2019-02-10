@@ -6,7 +6,7 @@ pygmentsCodeFences = true
 pygmentsUseClasses = true
 
 # Enable comments by entering your Disqus shortname
-#disqusShortname = ""
+disqusShortname = "kabelsalat"
 googleAnalytics = "UA-24074009-12"
 preserveTaxonomyNames = true
 paginate = 5 #frontpage pagination
@@ -63,7 +63,7 @@ home = ["HTML", "RSS", "Algolia"]
 
   [params.social]
   rss            = true 
-  email          = "philmassie@webafrica.org.za"
+  email          = "18571935+philmassie@users.noreply.github.com"
   #facebook      = "full profile url in facebook"
   #googleplus    = "full profile url in googleplus"
   #twitter       = "full profile url in twitter"

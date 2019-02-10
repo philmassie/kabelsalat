@@ -13,8 +13,8 @@
     <meta property="og:type" content="article">
 
     
-    <meta property="og:image" content="https://philmassie.github.io//img/201402_tankwa_099_IMG_6752.jpg">
-    <meta property="twitter:image" content="https://philmassie.github.io//img/201402_tankwa_099_IMG_6752.jpg" />
+    <meta property="og:image" content="https://philmassie.github.io//post/20160714/election_effort/IMG_7491.jpg">
+    <meta property="twitter:image" content="https://philmassie.github.io//post/20160714/election_effort/IMG_7491.jpg" />
     
 
     
@@ -24,9 +24,9 @@
     
 
     
-    <meta name="description" content="A small blog site, mainly data science, rarely updated.">
-    <meta property="og:description" content="A small blog site, mainly data science, rarely updated." />
-    <meta property="twitter:description" content="A small blog site, mainly data science, rarely updated." />
+    <meta name="description" content="Employing and promoting candidates costs money. Assuming that our political parties don’t have infinite financial resources it follows that investigating where they invest their resources may be a reasonable proxy for effort. Furthermore, looking at the change in effort adds a temporal dimension, suggesting where effort has increased or decreased between the elections.">
+    <meta property="og:description" content="Employing and promoting candidates costs money. Assuming that our political parties don’t have infinite financial resources it follows that investigating where they invest their resources may be a reasonable proxy for effort. Furthermore, looking at the change in effort adds a temporal dimension, suggesting where effort has increased or decreased between the elections." />
+    <meta property="twitter:description" content="Employing and promoting candidates costs money. Assuming that our political parties don’t have infinite financial resources it follows that investigating where they invest their resources may be a reasonable proxy for effort. Furthermore, looking at the change in effort adds a temporal dimension, suggesting where effort has increased or decreased between the elections." />
     
 
     
@@ -143,7 +143,7 @@
 
 <style type="text/css">
     header.intro-header {
-        background-image: url('/post/20160714/election_effort/20160227_164239_harold_porter_bbay.jpg')
+        background-image: url('/post/20160714/election_effort/IMG_7491.jpg')
     }
 </style>
 <header class="intro-header">
@@ -179,7 +179,7 @@
                         
                     </div>
                     <h1>South African municipal elections 2016</h1>
-                    <h2 class="subheading">A visual comparison of party effort across municipalities / districts</h2>
+                    <h2 class="subheading">A visual comparison of party effort</h2>
                     <span class="meta">
 			Posted by 
 			
@@ -214,6 +214,7 @@
                 </header>
                 <nav id="TableOfContents">
 <ul>
+<li><a href="#style-for-changing-title-colour-depending-on-photo">Style for changing title colour depending on photo</a></li>
 <li><a href="#introduction">Introduction</a></li>
 <li><a href="#data-sources">Data sources</a></li>
 <li><a href="#r-data-processing">R data processing</a></li>
@@ -221,6 +222,14 @@
 </nav>
                 
                 
+
+<h1 id="style-for-changing-title-colour-depending-on-photo">Style for changing title colour depending on photo</h1>
+
+<p><style>
+   div.post-heading span.meta {
+    color: black;
+  }
+</style></p>
 
 <h1 id="introduction">Introduction</h1>
 
@@ -370,6 +379,27 @@ write.csv<span class="p">(</span>d3_party_list<span class="p">,</span> file<span
                 
 <div id="disqus-comment"></div>
 
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "kabelsalat" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
 
 
             </div>
@@ -478,7 +508,7 @@ write.csv<span class="p">(</span>d3_party_list<span class="p">,</span> file<span
                    
                     
                     <li>
-                        <a href="mailto:philmassie@webafrica.org.za">
+                        <a href="mailto:18571935&#43;philmassie@users.noreply.github.com">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>

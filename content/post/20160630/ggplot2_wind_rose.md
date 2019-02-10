@@ -2,8 +2,9 @@
 layout: post
 Title: "Windrose Plots"
 subtitle: "Plotting a windrose in R with ggplot2"
-desciption: "This post covers plotting windroses in R."
-image: "post/20160630/ggplot2_wind_rose/img_1169.jpg"
+description: "This post covers plotting windroses in R."
+image: /post/20160630/ggplot2_wind_rose/img_1169.jpg
+thumbnail: /post/20160630/ggplot2_wind_rose/img_1169.jpg
 author: "Philip Massie"
 date: 2016-06-30
 draft: false

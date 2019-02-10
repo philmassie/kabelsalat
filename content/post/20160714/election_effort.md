@@ -2,8 +2,9 @@
 layout: post
 title: "South African municipal elections 2016"
 subtitle: "A visual comparison of party effort"
-desciption: "Employing and promoting candidates costs money. Assuming that our political parties don’t have infinite financial resources it follows that investigating where they invest their resources may be a reasonable proxy for effort. Furthermore, looking at the change in effort adds a temporal dimension, suggesting where effort has increased or decreased between the elections."
-image: "post/20160714/election_effort/IMG_7491.jpg"
+description: "Employing and promoting candidates costs money. Assuming that our political parties don’t have infinite financial resources it follows that investigating where they invest their resources may be a reasonable proxy for effort. Furthermore, looking at the change in effort adds a temporal dimension, suggesting where effort has increased or decreased between the elections."
+image: /post/20160714/election_effort/IMG_7491.jpg
+thumbnail: /post/20160714/election_effort/IMG_7491.jpg
 author: "Philip Massie"
 date: 2016-07-14
 draft: false
